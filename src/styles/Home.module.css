@@ -1,0 +1,44 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .header h1 {
+    font-size: 2.5em;
+    color: #333;
+  }
+  
+  .header p {
+    font-size: 1.2em;
+    color: #666;
+  }
+  
+  .featured, .about, .contact {
+    margin-bottom: 40px;
+  }
+  
+  .productGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .viewAllButton, .learnMoreButton, .contactButton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .viewAllButton:hover, .learnMoreButton:hover, .contactButton:hover {
+    background-color: #0056b3;
+  }
